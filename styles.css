@@ -1,0 +1,38 @@
+
+.headline {
+  background-color: rgb(114, 114, 114);
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.catch{
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  gap: 16px;
+  padding: 20px;
+  background-color: lightgray;
+  max-width: 400px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.demo {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  gap: 16px;
+  padding: 20px;
+  background-color: lightgray;
+  border-radius: 20px;
+  max-width: 250px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
