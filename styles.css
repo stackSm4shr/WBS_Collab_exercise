@@ -64,3 +64,23 @@ button {
   padding: 10px;
   box-sizing: border-box;
 }
+
+.video {
+  background-color: #aaa;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.video h1 {
+  font-size: 1.8rem;
+  margin-bottom: 40px;
+  color: #000;
+}
+
+.video video {
+  width: 640px;
+  max-width: 100%;
+  height: auto;
+  background-color: #eee;
+  border: 1px solid #ccc;
+}
