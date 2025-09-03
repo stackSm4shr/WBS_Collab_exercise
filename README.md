@@ -20,3 +20,10 @@ Pawtel provides a warm and welcoming digital space to showcase services, facilit
 [**OksanaYer**](https://github.com/OksanaYer)
 
 ---
+
+## 🔧 Development Updates
+
+Stay up to date with our progress and upcoming features!  
+Check out our Trello board for task tracking and planning:
+
+🔗 [Development Trello Board](https://trello.com/b/zZ5Ndhnk/primer-psd-to-html)
