@@ -1,17 +1,16 @@
-
 header {
-  background-color: #FFD6A5;
+  background-color: #ffd6a5;
   padding: 24px 0;
   text-align: center;
-  border-bottom: 3px solid #FD9F40;
+  border-bottom: 3px solid #fd9f40;
 }
 
 header .pawtel-logo {
-  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-family: "Comic Sans MS", cursive, sans-serif;
   font-size: 2.5rem;
   color: #564225;
   letter-spacing: 2px;
-  text-shadow: 1px 2px 0 #FFF2D8;
+  text-shadow: 1px 2px 0 #fff2d8;
 }
 
 header nav {
@@ -20,7 +19,7 @@ header nav {
 
 header nav a {
   display: inline-block;
-  background-color: #FD9F40;
+  background-color: #fd9f40;
   color: #fff;
   padding: 12px 28px;
   margin: 0 8px;
@@ -38,10 +37,10 @@ header nav a:hover {
 
 /* Footer Styles */
 footer {
-  background-color: #FFD6A5;
+  background-color: #ffd6a5;
   padding: 14px 0;
   text-align: center;
-  border-top: 2px solid #FD9F40;
+  border-top: 2px solid #fd9f40;
   position: relative;
   bottom: 0;
   width: 100%;
@@ -51,7 +50,7 @@ footer {
 }
 
 footer a {
-  color: #FD9F40;
+  color: #fd9f40;
   text-decoration: underline;
   font-weight: bold;
   margin-left: 8px;
@@ -60,76 +59,6 @@ footer a {
 footer a:hover {
   color: #564225;
 }
-  
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif; 
-  background: #f2f2f2;  
-  color: #000;          
-}
-
-#offer {
-    min-height: 100vh;
-}
-.subtitle {
-  max-width: 700px;
-  margin: 0 auto 30px;
-  text-align: center;
-  line-height: 1.6;
-  font-size: 1.1rem;
-}
-
-.subtitle-two {
-  display: block;
-  margin-top: 8px;
-  font-weight: bold;
-}
-
-
-h2, h3 {
-  font-family: Georgia, serif;
-  font-weight: bold;
-  text-align: center;
-  margin: 20px 0;
-}
-
-/* grid*/
-.services ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  justify-items: center;
-}
-
-.service-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-
-.service-title {
-  margin-bottom: 10px;
-  font-weight: 600;
-}
-
-
-.circle {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  background: #f5f5dc;       
-  border: 3px solid #0b580b; 
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 48px;
 
 .headline {
   background-color: rgb(114, 114, 114);
@@ -216,6 +145,75 @@ button {
   height: auto;
   background-color: #eee;
   border: 1px solid #ccc;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f2f2f2;
+  color: #000;
+}
+
+#offer {
+  min-height: 100vh;
+}
+.subtitle {
+  max-width: 700px;
+  margin: 0 auto 30px;
+  text-align: center;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+.subtitle-two {
+  display: block;
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+h2,
+h3 {
+  font-family: Georgia, serif;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* grid*/
+.services ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+}
+
+.service-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.service-title {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: #f5f5dc;
+  border: 3px solid #0b580b;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
 }
 #why-us.section {
   background: #f2f4f7;
@@ -332,4 +330,3 @@ button {
   font-size: 1rem;
   opacity: 0.9;
 }
-
