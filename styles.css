@@ -1,15 +1,13 @@
 header {
-  background-color: gray;
+  background-color: #dbb971;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
 }
 
-header .logo {
-  background-color: white;
-  padding: 10px 20px;
-  font-size: 1.2rem;
+header img {
+  border-radius: 5%;
 }
 
 header nav {
@@ -21,15 +19,15 @@ header nav a {
   background-color: white;
   padding: 10px 20px;
   text-decoration: none;
-  color: black;
+  color: black; 
   font-size: 1rem;
+    border-radius: 10px;
 }
 
 footer {
-  background-color: #f2f2f2;
-  padding: 40px 20px;
+  background-color: #dbb971;
+  padding:  5px;
   text-align: center;
-  border-top: 2px solid #ccc;
 }
 
 footer h2 {
@@ -38,7 +36,6 @@ footer h2 {
   color: #000;
 }
 
-/* Navigation Links */
 footer .nav_foot ul {
   list-style: none;
   padding: 0;
@@ -63,7 +60,6 @@ footer .nav_foot ul li a:hover {
   color: #555;
 }
 
-/* Social Media Buttons */
 .social-icons {
   display: flex;
   justify-content: center;
@@ -88,7 +84,7 @@ footer .nav_foot ul li a:hover {
 }
 
 .headline {
-  background-color: rgb(114, 114, 114);
+  background-color: #164b42;
   display: flex;
   justify-content: center;
   gap: 40px;
@@ -126,7 +122,7 @@ button {
 }
 
 .trustcomp {
-  background-color: #eee;
+
   padding: 60px 20px;
   text-align: center;
 }
@@ -155,7 +151,7 @@ button {
 }
 
 .video {
-  background-color: #aaa;
+  background-color: #164b42;
   padding: 60px 20px;
   text-align: center;
 }
@@ -177,13 +173,10 @@ button {
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background: #f2f2f2;
+  background: #1a6457;
   color: #000;
 }
 
-#offer {
-  min-height: 100vh;
-}
 .subtitle {
   max-width: 700px;
   margin: 0 auto 30px;
@@ -206,7 +199,6 @@ h3 {
   margin: 20px 0;
 }
 
-/* grid*/
 .services ul {
   list-style: none;
   margin: 0;
@@ -231,77 +223,83 @@ h3 {
 }
 
 .circle {
-  width: 120px;
-  height: 120px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
-  background: #f5f5dc;
-  border: 3px solid #0b580b;
-
+  background: #fff;
   display: flex;
   align-items: center;
+  overflow: hidden;
+  border: 2px solid #0b580b;
   justify-content: center;
-  font-size: 48px;
+  margin: 10px;
 }
-#why-us.section {
-  background: #f2f4f7;
+
+.circle img {
   width: 100%;
-  min-height: 100vh;
-  display: block;
-  font-family: inherit;
-  padding: 56px 0;
+  height: 100%;
+  object-fit: cover;
+}
+
+#why-us {
+  background: #164b42;
+  padding: 60px 20px;
+  text-align: center;
 }
 
 #why-us h2 {
-  max-width: 1200px;
-  margin: 0 auto 28px auto;
-  padding: 0 16px;
-  line-height: 1.2;
-  text-align: left;
+  font-family: Georgia, serif;
+  font-size: 2rem;
+  margin-bottom: 40px;
 }
 
 .why-list {
   list-style: none;
   margin: 0;
   padding: 0;
+
   display: grid;
-  gap: 28px;
+  grid-template-columns: repeat(2, 1fr); /* по 2 карточки */
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .why-card {
+  background: #f9f9f9;
+  border-radius: 12px;
+  padding: 20px;
   display: flex;
   align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 16px;
+  gap: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 .why-img {
-  flex: 0 0 clamp(220px, 32vw, 420px);
-  max-width: 100%;
-  height: auto;
-  display: block;
-  object-fit: cover;
+  width: 100px;
+  height: 100px;
   border-radius: 12px;
+  object-fit: cover;
 }
 
 .why-text {
-  flex: 1 1 auto;
   text-align: left;
-  padding-left: 24px;
 }
 
 .why-text h3 {
-  margin: 0 0 8px 0;
-  line-height: 1.25;
+  margin: 0 0 8px;
+  font-size: 1.2rem;
+  color: #006400;
 }
 
 .why-text p {
   margin: 0;
-  opacity: 0.95;
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.5;
 }
+
 #oxana-discounts {
-  background: #f2f4f7;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -309,16 +307,11 @@ h3 {
   padding: 56px 0;
 }
 
-#oxana-discounts h2 {
-  margin-bottom: 40px;
-  font-size: 2rem;
-}
-
 .discounts-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(260px, 1fr));
   gap: 24px;
-  max-width: 1200px;
+  max-width: min(1200px, 100%);
   margin: 0 auto;
   padding: 0 16px;
 }
@@ -341,10 +334,13 @@ h3 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: min(90%, 560px);
+  max-width: calc(100% - 32px);
   background: rgba(255, 255, 255, 0.9);
   padding: 20px 24px;
   border-radius: 8px;
   text-align: center;
+  word-wrap: break-word;
 }
 
 .discount-card .price {
