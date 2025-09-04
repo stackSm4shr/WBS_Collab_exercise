@@ -1,0 +1,130 @@
+
+header {
+  background: linear-gradient(135deg, #185c52, #235c41);
+  padding: 28px 0;
+  text-align: center;
+  box-shadow: 0 8px 24px rgba(24, 92, 82, 0.30);
+  border-radius: 0 0 30px 30px;
+  color: #F2D389;
+}
+
+header .pawtel-logo {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  color: #F2D389;
+  text-shadow: 0 0 10px #bfa949;
+  margin-bottom: 16px;
+}
+
+header nav a {
+  display: inline-block;
+  margin: 0 14px;
+  padding: 14px 34px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #185c52;
+  background: linear-gradient(90deg, #F2D389 85%, #249CA6 100%);
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+  box-shadow: 0 3px 10px rgba(242, 211, 137, 0.12);
+  border: none;
+}
+
+header nav a:hover,
+header nav a:focus {
+  background: linear-gradient(90deg, #249CA6 70%, #F2D389 100%);
+  color: #fff;
+  box-shadow: 0 6px 20px #249CA6;
+}
+
+/* Modern, Luxury Footer Styles using Logo Colors */
+footer {
+  background: linear-gradient(135deg, #185c52 90%, #249CA6 100%);
+  padding: 20px 0;
+  text-align: center;
+  color: #F2D389;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 30px 30px 0 0;
+  box-shadow: 0 -6px 18px rgba(24, 92, 82, 0.20);
+  font-weight: 500;
+  letter-spacing: 0.07em;
+  font-size: 1rem;
+}
+
+footer a {
+  color: #e7b535;
+  text-decoration: underline;
+  font-weight: 700;
+  margin-left: 14px;
+  transition: color 0.3s;
+}header {
+    background: linear-gradient(135deg, #185c52, #235c41);
+    padding: 30px 0;
+    text-align: center;
+    box-shadow: 0 8px 24px rgba(24, 92, 82, 0.3);
+    border-radius: 0 0 30px 30px;
+    color: #F2D389;
+}
+
+header .pawtel-logo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    font-size: 3.2rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #F2D389;
+    text-shadow: 0 0 12px #bfa949;
+    margin-bottom: 18px;
+}
+
+header nav a {
+    display: inline-block;
+    margin: 0 16px;
+    padding: 14px 36px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #185c52;
+    background: linear-gradient(90deg, #F2D389 80%, #249CA6 100%);
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 12px rgba(242, 211, 137, 0.15);
+    border: none;
+}
+
+header nav a:hover,
+header nav a:focus {
+    background: linear-gradient(90deg, #249CA6 65%, #F2D389 100%);
+    color: #fff;
+    box-shadow: 0 6px 20px rgba(36, 156, 166, 0.8);
+}
+
+footer {
+    background: linear-gradient(135deg, #185c52 85%, #249CA6 100%);
+    padding: 22px 0;
+    text-align: center;
+    color: #F2D389;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 30px 30px 0 0;
+    box-shadow: 0 -6px 18px rgba(24, 92, 82, 0.25);
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    font-size: 1.1rem;
+}
+
+footer a {
+    color: #e7b535;
+    text-decoration: underline;
+    font-weight: 700;
+    margin-left: 16px;
+    transition: color 0.3s ease;
+}
+
+footer a:hover,
+footer a:focus {
+  color: #249CA6;
+}
