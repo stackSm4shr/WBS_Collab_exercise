@@ -1,3 +1,66 @@
+/* Header Styles */
+header {
+  background-color: #ffd6a5;
+  padding: 24px 0;
+  text-align: center;
+  border-bottom: 3px solid #fd9f40;
+}
+
+header .pawtel-logo {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 2.5rem;
+  color: #564225;
+  letter-spacing: 2px;
+  text-shadow: 1px 2px 0 #fff2d8;
+}
+
+header nav {
+  margin-top: 18px;
+}
+
+header nav a {
+  display: inline-block;
+  background-color: #fd9f40;
+  color: #fff;
+  padding: 12px 28px;
+  margin: 0 8px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: background 0.2s;
+  font-weight: bold;
+  box-shadow: 1px 3px 0 #c98c31;
+}
+
+header nav a:hover {
+  background-color: #564225;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #ffd6a5;
+  padding: 14px 0;
+  text-align: center;
+  border-top: 2px solid #fd9f40;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-size: 1rem;
+  color: #564225;
+  letter-spacing: 1px;
+}
+
+footer a {
+  color: #fd9f40;
+  text-decoration: underline;
+  font-weight: bold;
+  margin-left: 8px;
+}
+
+footer a:hover {
+  color: #564225;
+}
+
 .headline {
   background-color: rgb(114, 114, 114);
   display: flex;
@@ -83,4 +146,188 @@ button {
   height: auto;
   background-color: #eee;
   border: 1px solid #ccc;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f2f2f2;
+  color: #000;
+}
+
+#offer {
+  min-height: 100vh;
+}
+.subtitle {
+  max-width: 700px;
+  margin: 0 auto 30px;
+  text-align: center;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+.subtitle-two {
+  display: block;
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+h2,
+h3 {
+  font-family: Georgia, serif;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* grid*/
+.services ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+}
+
+.service-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.service-title {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: #f5f5dc;
+  border: 3px solid #0b580b;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+}
+#why-us.section {
+  background: #f2f4f7;
+  width: 100%;
+  min-height: 100vh;
+  display: block;
+  font-family: inherit;
+  padding: 56px 0;
+}
+
+#why-us h2 {
+  max-width: 1200px;
+  margin: 0 auto 28px auto;
+  padding: 0 16px;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.why-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 28px;
+}
+
+.why-card {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.why-img {
+  flex: 0 0 clamp(220px, 32vw, 420px);
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.why-text {
+  flex: 1 1 auto;
+  text-align: left;
+  padding-left: 24px;
+}
+
+.why-text h3 {
+  margin: 0 0 8px 0;
+  line-height: 1.25;
+}
+
+.why-text p {
+  margin: 0;
+  opacity: 0.95;
+}
+#oxana-discounts {
+  background: #f2f4f7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 56px 0;
+}
+
+#oxana-discounts h2 {
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+
+.discounts-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(260px, 1fr));
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.discount-card {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+}
+
+.discount-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.discount-card .slab {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px 24px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.discount-card .price {
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin-bottom: 8px;
+}
+
+.discount-card .features {
+  font-size: 1rem;
+  opacity: 0.9;
 }
