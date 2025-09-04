@@ -1,4 +1,4 @@
-/* Header Styles */
+
 header {
   background-color: #FFD6A5;
   padding: 24px 0;
@@ -61,3 +61,275 @@ footer a:hover {
   color: #564225;
 }
   
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif; 
+  background: #f2f2f2;  
+  color: #000;          
+}
+
+#offer {
+    min-height: 100vh;
+}
+.subtitle {
+  max-width: 700px;
+  margin: 0 auto 30px;
+  text-align: center;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+.subtitle-two {
+  display: block;
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+
+h2, h3 {
+  font-family: Georgia, serif;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* grid*/
+.services ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+}
+
+.service-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+.service-title {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+
+.circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: #f5f5dc;       
+  border: 3px solid #0b580b; 
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+
+.headline {
+  background-color: rgb(114, 114, 114);
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.catch {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  gap: 16px;
+  padding: 20px;
+  background-color: lightgray;
+  max-width: 400px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.demo {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  gap: 16px;
+  padding: 20px;
+  background-color: lightgray;
+  border-radius: 20px;
+  max-width: 250px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.trustcomp {
+  background-color: #eee;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.trustcomp > div:first-child p {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.trustcomp_logo {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.trustcomp_logo img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.video {
+  background-color: #aaa;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.video h1 {
+  font-size: 1.8rem;
+  margin-bottom: 40px;
+  color: #000;
+}
+
+.video video {
+  width: 640px;
+  max-width: 100%;
+  height: auto;
+  background-color: #eee;
+  border: 1px solid #ccc;
+}
+#why-us.section {
+  background: #f2f4f7;
+  width: 100%;
+  min-height: 100vh;
+  display: block;
+  font-family: inherit;
+  padding: 56px 0;
+}
+
+#why-us h2 {
+  max-width: 1200px;
+  margin: 0 auto 28px auto;
+  padding: 0 16px;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.why-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 28px;
+}
+
+.why-card {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.why-img {
+  flex: 0 0 clamp(220px, 32vw, 420px);
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.why-text {
+  flex: 1 1 auto;
+  text-align: left;
+  padding-left: 24px;
+}
+
+.why-text h3 {
+  margin: 0 0 8px 0;
+  line-height: 1.25;
+}
+
+.why-text p {
+  margin: 0;
+  opacity: 0.95;
+}
+#oxana-discounts {
+  background: #f2f4f7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 56px 0;
+}
+
+#oxana-discounts h2 {
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+
+.discounts-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(260px, 1fr));
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.discount-card {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+}
+
+.discount-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.discount-card .slab {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px 24px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.discount-card .price {
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin-bottom: 8px;
+}
+
+.discount-card .features {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
