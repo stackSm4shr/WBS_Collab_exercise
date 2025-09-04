@@ -211,3 +211,61 @@ button {
   margin: 0;
   opacity: 0.95;
 }
+#oxana-discounts {
+  background: #f2f4f7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 56px 0;
+}
+
+#oxana-discounts h2 {
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+
+.discounts-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(260px, 1fr));
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.discount-card {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+}
+
+.discount-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.discount-card .slab {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px 24px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.discount-card .price {
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin-bottom: 8px;
+}
+
+.discount-card .features {
+  font-size: 1rem;
+  opacity: 0.9;
+}
